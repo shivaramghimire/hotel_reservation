@@ -1,0 +1,251 @@
+
+h4, h5, h6,
+h1, h2, h3 {margin-top: 0;}
+ul, ol {margin: 0;}
+p {margin: 0;}
+html, body{
+	font-family: 'Open Sans', sans-serif;
+	background:#F6F6F6;
+}
+body a{
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+.logo h1 {
+	font-size: 3em;
+	text-transform: uppercase;
+	font-weight: 800;
+	margin-bottom:0;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+.logo h1 a{
+	color:#F94B4B;
+	text-decoration:none;
+}
+.logo h1 span{
+	font-size:20px;
+	color:#000;
+	display: block;
+}
+
+.navigation{
+	float:right;
+	margin-top: -1.4em;
+}
+.nav {
+	/* General Font */
+	font-family: 'Open Sans', sans-serif;
+	/* General Shape */
+	position: relative;
+	margin: 0;
+}
+ul.nav{
+	padding:0;
+	list-style:none;
+}
+/* Main element of the naviagtion */
+.nav > li {
+	display: inline-block;
+	float:left;
+}
+.nav > li:nth-child(5){
+	background:none;
+}
+/* Link Style */
+.nav > li > a {
+	padding:51px 20px 55px 20px;
+	display: block;
+	color:#000;
+	font-size:.85em;
+	text-transform:uppercase;
+	border-width:5px 0 0 0;
+	border-style:solid;
+	border-color:rgba(255, 255, 255, 0);
+}
+.nav > li:nth-child(1) > a,.nav > li:nth-child(5) > a,.nav > li:nth-child(3) > a {
+	background:none;
+}
+.nav > li:nth-child(1) > a:hover, .nav > li:nth-child(5) > a:hover, .nav > li:nth-child(3) > a:hover{
+	background:#dcbc86;
+}
+.nav > li:hover > a{
+	color: #fff;
+	border-color:#D1AC6D;
+	background:url(../images/menu-arrow-hover.png) no-repeat 51% 66% #dcbc86;
+}
+.nav li > ul li a:hover{
+	text-decoration:none;
+}
+/* Simple multilevel dropdown */
+.nav > li > ul {
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	list-style: none;
+	top:128px;
+	width: 200px;
+	text-align: left;
+	margin-top:30px;
+	padding: 0px;
+	z-index: 99;
+}
+/* First level appear */
+.nav > li:hover > ul {
+	opacity: 1;
+	visibility: visible;
+	margin-top: 0px;
+}
+/* Style for dropdown links */
+.nav li > ul li{	
+	position: relative;
+ }
+.nav li > ul li a{
+	color:#888;
+	background-color:#FFF;
+	font-size:0.8em;
+	display: block;
+	padding:10px 10px;
+	text-transform:uppercase;
+	position:relative;
+	border-bottom:1px solid #DDD;
+	-moz-transition: all 0.2s linear;
+	-webkit-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+}
+.nav li > ul li a span.arrow{
+	width:15px;
+	height:10px;
+	position:absolute;
+	right:5px;
+	top:15px;
+	background:url(../images/arrow-before.png) no-repeat center;
+}
+.nav > li > ul  li:hover a span.arrow{
+	background:url(../images/nav-arrow.png) no-repeat center
+}
+.nav > li > ul  li:hover {
+	color:#FFF;
+	background:#dcbc86;
+	-moz-transition: all 0.5s linear;
+	-webkit-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	-ms-transition: all 0.5s linear;
+}
+.nav ul.dropdown2 {
+	color: #FFF;
+}
+.nav ul  li:hover > a {
+	color:#FFF;
+	background:#dcbc86;
+}
+/* Second and third dropdown level */
+.nav > li > ul li ul {
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	list-style: none;
+	top:0px;
+	left: 200px;
+	width: 200px;
+	text-align: left;
+	padding: 0px;
+	margin-left: 30px;
+}
+
+
+
+/*About Us*/
+
+.about{
+	text-align:center;
+}
+.about h2{
+	font-size: 3em;
+	font-weight: 700;
+	margin-bottom:0.5em;
+	text-transform: uppercase;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+.about h3{
+	font-size:2em;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.about h3 a{
+	color:#F94B4B;
+}
+.about h3 a:hover{
+	text-decoration:none;
+	color:#555;
+}
+.about p{
+	color:#555;
+	font-size:1em;
+	line-height:2em;
+	margin:3em 0 2em;
+	font-weight:700;
+}
+a.btn.btn-primary.btn2.btn-normal.btn-inline {
+	padding: 10px 40px;
+}
+h3.hist{
+	font-size: 3em;
+	font-weight: 700;
+	margin-bottom:1em;
+	text-transform: uppercase;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color:#000;
+	text-align:center;
+}
+.staff{
+	padding:5em 0;
+}
+.staff_grid h3{
+	font-size:2em;
+	text-transform:uppercase;
+	font-family: 'Open Sans Condensed', sans-serif;
+	margin:1em 0 0.5em;
+}
+.staff_grid h3 a{
+	color:#F94B4B;
+}
+.staff_grid h3 a:hover{
+	text-decoration:none;
+	color:#555;
+}
+.staff_grid p{
+	color:#999;
+	font-size:0.95em;
+	line-height:1.8em;
+}
+h2.staff_head{
+	font-size: 3em;
+	font-weight: 700;
+	margin-bottom:1em;
+	text-transform: uppercase;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color:#000;
+	text-align:center;
+}
+.history_grid h3{
+	font-size:18px;
+	text-transform:uppercase;
+	line-height:1.5em;
+}
+.history_grid p{
+	font-size:0.95em;
+	color:#555;
+	line-height:1.8em;
+	margin:2em 0 1em;
+}
+.history_grid h3 a{
+	color:#F94B4B;
+}
+.history_grid h3 a:hover{
+	color:#555;
+	text-decoration:none;
+}
