@@ -18,7 +18,7 @@ if(isset($_GET['id'])){
     $id[1] = $id[1] . " " . $id[2] . " " . $id[3];
 }else{
     $id[0] = "Hotel";
-    $id[1] = "Booking Nepal";
+    $id[1] = "Booking System";
 }
 ?>
 
